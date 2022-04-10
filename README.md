@@ -36,3 +36,12 @@
   ```python script.py```
   
 ## Screenshots
+### Website - theverge.com
+![Website - theverge.com](https://github.com/aka-nikko/Web-Scraping---theverge/blob/master/screenshots/theverge.png)
+
+### Extracted Data in CSV File
+![CSV-Data](https://github.com/aka-nikko/Web-Scraping---theverge/blob/master/screenshots/csv_data.png)
+
+### Data Stored in SQLite Database
+![SQLite Data](https://github.com/aka-nikko/Web-Scraping---theverge/blob/master/screenshots/sqlite_database.png)
+
