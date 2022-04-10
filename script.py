@@ -36,7 +36,7 @@ for link in all_link:
     author_name = ind_soup.find_all("span",{"class": "c-byline__author-name"})
     for text in author_name:
         name.append(text.text)
-    author = ' and '.join(name)
+    author = ', '.join(name)
     data = [id,link.get('href'),link.text.strip(),author,time.text.strip()]
     with open(file, 'a', encoding='UTF8', newline='') as f:
         writer = csv.writer(f)
